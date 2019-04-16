@@ -8,7 +8,7 @@
     -o-background-size: cover;
     background-size: cover;
   }
-
+/* 重写样式 图片轮播  */
   .carousel-control-next-icon{
     width: 20%;
     height:20%;
@@ -20,5 +20,20 @@
     height:20%;
     background-image: url(../img/ic_up.svg) ; 
   }
+/* nav 样式修改 */
+  .carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 13%;
+    left: 35%;
+    z-index: 10;
+    padding-top: 27px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
 
+#navbarResponsive>ul>li{
+    width:8rem
+}
  
