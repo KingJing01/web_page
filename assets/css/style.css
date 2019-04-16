@@ -43,3 +43,7 @@
     background-color: #439df7;
     border-color:#439df7;
 }
+
+#dropdown-xinya>.dropdown-item {
+    text-align: center
+}
