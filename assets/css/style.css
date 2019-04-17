@@ -189,4 +189,8 @@ margin-top:20px;
 -o-filter: grayscale(100%);
 filter: grayscale(100%);
 filter: gray; /* IE 6-9 */
+}
+.no-a{
+  text-decoration:none;
+  color:#333333;
 } 
