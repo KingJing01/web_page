@@ -36,7 +36,15 @@
 .navbar-xinya>ul>li{
     width:8rem
 }
- 
+/* 网站版权css */
+#foot-xinya{
+    position: absolute;
+    color: white;
+    bottom: 2%;
+    text-align: center;
+    width: 100%;
+    font-size: 0.5rem;
+}
 
 .btn-xinya {
     color: #fff;
