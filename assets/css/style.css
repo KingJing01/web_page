@@ -94,7 +94,7 @@ text-align:left;
 }
 .introduction-img{
   margin: 60px 0 30px 0;
-  text-align: center;
+  /* text-align: center; */
 }
 .introduction-center{
   text-align: center;
@@ -181,4 +181,16 @@ margin-top:20px;
 }
 .no-padding{
   padding: 0!important;
-}  
+} 
+.grayscale {
+  -webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+filter: grayscale(100%);
+filter: gray; /* IE 6-9 */
+}
+.no-a{
+  text-decoration:none;
+  color:#333333;
+} 
