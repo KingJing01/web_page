@@ -8,14 +8,26 @@
     -o-background-size: cover;
     background-size: cover;
   }
+  
 /* 重写样式 图片轮播  */
-  .carousel-control-next-icon{
+.carousel-control-next-icon{
+  width: 20%;
+  height:20%;
+  background-image: none;
+}
+
+.carousel-control-prev-icon{
+  width: 20%;
+  height:20%;
+  background-image: none;
+}
+  .carousel-control-next-icon:hover{
     width: 20%;
     height:20%;
     background-image: url(../img/ic_down.svg) ;
   }
 
-  .carousel-control-prev-icon{
+  .carousel-control-prev-icon:hover{
     width: 20%;
     height:20%;
     background-image: url(../img/ic_up.svg) ; 
