@@ -38,8 +38,9 @@
 }
 
 #navbarResponsive>ul>li>a{
-  color: #333333
+  color: rgba(255,255,255,.5)
 }
+
 /* 网站版权css */
 #foot-xinya{
     position: absolute;
