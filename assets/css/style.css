@@ -36,6 +36,10 @@
 .navbar-xinya>ul>li{
     width:8rem
 }
+
+#navbarResponsive>ul>li>a{
+  color: #333333
+}
 /* 网站版权css */
 #foot-xinya{
     position: absolute;
