@@ -86,6 +86,9 @@
 }
 
 /* 首页 nav 下划线 */
+#dropdown-toggle-xinya{
+  border:0px solid white;
+}
 #dropdown-xinya{
   font-size: 14px;
   width: 150px;
