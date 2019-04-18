@@ -33,9 +33,10 @@
                 <a class="nav-link text-white" href="page/enterpriseIntroduction.html">企业介绍</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
                     功能介绍
-              </a>
+                  </a>
+              
                 <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
                 <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown" id="dropdown-xinya">
                   <a class="dropdown-item" href="page/aggregateManagement.html">聚合管理</a>
@@ -100,6 +101,10 @@
     <script src="assets/js/jquery-min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.bootstrap-dropdown-hover.min.js"></script>
+    <script>
+     $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover({});
+    </script>
 </body>
 
 </html>
