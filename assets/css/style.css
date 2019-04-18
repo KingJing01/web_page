@@ -110,6 +110,10 @@
     border-color:#439df7;
 }
 
+.a-outline-xinya{
+  outline: none
+}
+
 #dropdown-xinya>.dropdown-item {
     text-align: center
 }
