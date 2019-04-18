@@ -10,26 +10,16 @@
   }
   
 /* 重写样式 图片轮播  */
-.carousel-control-next-icon{
-  width: 20%;
-  height:20%;
-  background-image: none;
-}
-
-.carousel-control-prev-icon{
+.carousel-control-next-icon,.carousel-control-prev-icon{
   width: 20%;
   height:20%;
   background-image: none;
 }
   .carousel-control-next-icon:hover{
-    width: 20%;
-    height:20%;
     background-image: url(../img/ic_down.svg) ;
   }
 
   .carousel-control-prev-icon:hover{
-    width: 20%;
-    height:20%;
     background-image: url(../img/ic_up.svg) ; 
   }
 /* nav 样式修改 */
@@ -42,25 +32,57 @@
     padding-top: 27px;
     padding-bottom: 20px;
     color: #fff;
-    text-align: center;
+    margin: 2% 0px;
+}
+
+/* 字体样式修改 */
+#navbarResponsive>ul>li>a{
+  font-size:14px 
+}
+#navbarResponsive>button{
+  width: 80px;
+  height: 32px;
+  border-radius: 4px;
+  background-color: #439df7;
+  font-size: 14px;
+  padding: 0px;
+}
+
+#navbarResponsive>button:hover{
+  opacity:0.8;
+}
+
+.text-xinya{
+    margin-left: 25%;
+    text-align: left;
+    font-size: 42px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.lead-xinya{
+  margin-left: 25%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
 }
 
 .navbar-xinya>ul>li{
-    width:8rem
+  width: 100px;
 }
 
-#navbarResponsive>ul>li>a{
-  color:red;
-}
+
 
 /* 网站版权css */
 #foot-xinya{
-    position: absolute;
-    color: white;
-    bottom: 2%;
-    text-align: center;
-    width: 100%;
-    font-size: 0.5rem;
+  position: absolute;
+  color: white;
+  bottom: 2%;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  opacity: 0.7;
 }
 
 .btn-xinya {
@@ -72,6 +94,15 @@
 #dropdown-xinya>.dropdown-item {
     text-align: center
 }
+
+#nav-xinya>.container{
+  max-width: 80%;
+  margin-top: 20px;  
+}
+
+
+
+
 .introduction-title{
   font-family:PingFangSC-Medium;
 font-size:32px;
