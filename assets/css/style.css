@@ -194,3 +194,10 @@ filter: gray; /* IE 6-9 */
   text-decoration:none;
   color:#333333;
 } 
+.nav-link{
+  font-size:14px;
+  width: auto;
+}
+.nav-item{
+ width:auto;
+}
