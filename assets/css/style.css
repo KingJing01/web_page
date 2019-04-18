@@ -252,7 +252,38 @@ margin-top:20px;
 filter: grayscale(100%);
 filter: gray; /* IE 6-9 */
 }
+
+/* yujian */
 .no-a{
   text-decoration:none;
   color:#333333;
 } 
+.no-a:hover{
+  text-decoration:none;
+  color:#439df7;
+} 
+.nav-link{
+  font-size:14px;
+  width: auto;
+}
+.nav-item{
+ width:auto;
+}
+.introduction-content2 span{
+  line-height: 22px;
+}
+.introduction-mt-30{
+  margin-bottom: 15px;
+}
+.imgMar{
+  margin-top: -35px;
+}
+.introductionCon{
+  width: 430px;
+}
+.introduction-title{
+  margin-bottom: 40px;
+}
+.BMap_Marker{
+  background-image:url('../img/map111.gif');
+}
