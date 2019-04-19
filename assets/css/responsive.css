@@ -1,3 +1,13 @@
+/* 添加样式适应各屏幕大小 */
+@media (min-width: 1200px){
+  .page-icon-xinya{
+    margin-left: 10%
+  }
+
+  .page-nav-xinya{
+    margin-right: 10%
+  }
+}
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
   #main-slide .carousel-caption {
