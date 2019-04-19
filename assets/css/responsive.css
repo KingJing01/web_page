@@ -170,6 +170,27 @@
   .footer-area h3 {
     margin-top: 30px;
   }
+
+  .text-xinya {
+    margin-left: 13%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 18px;
+  }
+
+  .lead-xinya {
+    margin-left: 13%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+  }
+
+  .carousel-caption {
+    bottom: 40%;
+  }
+
 }
 
 /* only small tablets */
