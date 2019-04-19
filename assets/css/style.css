@@ -26,7 +26,6 @@
   .carousel-caption {
     position: absolute;
     right: 0%;
-    bottom: 35%;
     left: 30%;
     z-index: 10;
     padding-top: 27px;
@@ -52,21 +51,7 @@
   opacity:0.8;
 }
 
-.text-xinya{
-    margin-left: 25%;
-    text-align: left;
-    font-size: 42px;
-    font-weight: 500;
-    margin-top: 18px;
-}
 
-.lead-xinya{
-  margin-left: 25%;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 30px;
-}
 
 .navbar-xinya>ul>li{
   width: 100px;
