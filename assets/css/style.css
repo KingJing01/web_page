@@ -1,44 +1,40 @@
 /* 首页图片轮播 */
 .carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* 重写样式 图片轮播  */
-.carousel-control-next-icon,.carousel-control-prev-icon{
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   width: 20%;
-  height:20%;
+  height: 20%;
   background-image: none;
 }
-  /* .carousel-control-next-icon:hover{
-    background-image: url(../img/ic_down.svg) ;
-  }
 
-  .carousel-control-prev-icon:hover {
-    background-image: url(../img/ic_up.svg) ; 
-  } */
 /* nav 样式修改 */
-  .carousel-caption {
-    position: absolute;
-    right: 0%;
-    left: 30%;
-    z-index: 10;
-    padding-top: 27px;
-    padding-bottom: 0px;
-    color: #fff;
-    margin: 0px;
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  left: 30%;
+  z-index: 10;
+  padding-top: 27px;
+  padding-bottom: 0px;
+  color: #fff;
+  margin: 0px;
 }
 
 /* 首页字体样式修改 */
-#navbarResponsive>ul>li>a{
-  font-size:14px 
+#navbarResponsive>ul>li>a {
+  font-size: 14px
 }
-#navbarResponsive>button{
+
+#navbarResponsive>button {
   width: 80px;
   height: 32px;
   border-radius: 4px;
@@ -47,29 +43,40 @@
   padding: 0px;
 }
 
-#navbarResponsive>button:hover{
-  opacity:0.8;
+#navbarResponsive>button:hover {
+  opacity: 0.8;
 }
 
-.img-ent-style{
+#mainNav {
+  height: 70px;
+}
+
+.img-second-top {
+  width: 72px;
+  height: 38px;
+}
+
+.img-ent-style {
   width: 100%;
   height: 100%;
-  margin: 50px 0px;
+  margin: 30px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.navbar-xinya>ul>li{
+.navbar-xinya>ul>li {
   width: 100px;
 }
 
-.footer-text{
+.footer-text {
   font-size: 10px;
   color: #999999;
   text-align: center;
-  padding-bottom: 10px;
+  padding: 40px;
 }
 
 /* 网站版权css */
-#foot-xinya{
+#foot-xinya {
   position: absolute;
   color: white;
   bottom: 2%;
@@ -80,208 +87,251 @@
 }
 
 /* 首页 nav 下划线 */
-#dropdown-toggle-xinya{
-  border:0px solid white;
+#dropdown-toggle-xinya {
+  border: 0px solid white;
 }
-#dropdown-xinya{
+
+#dropdown-xinya {
   font-size: 14px;
   width: 150px;
   height: 274px;
   opacity: 0.9;
 }
 
-#dropdown-xinya>.dropdown-item{
+#dropdown-xinya>.dropdown-item {
   padding: 8px 0px;
 }
 
-#dropdown-xinya>.dropdown-item:hover{
+#dropdown-xinya>.dropdown-item:hover {
   color: #439df7
 }
 
 .btn-xinya {
-    color: #fff;
-    background-color: #439df7;
-    border-color:#439df7;
+  color: #fff;
+  background-color: #439df7;
+  border-color: #439df7;
 }
 
-.a-outline-xinya{
+.a-outline-xinya {
   outline: none
 }
 
 #dropdown-xinya>.dropdown-item {
-    text-align: center
+  text-align: center
 }
 
-#nav-xinya>.container{
+#nav-xinya>.container {
   max-width: 80%;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 
 
 
 
-.introduction-title{
-  font-family:PingFangSC-Medium;
-font-size:32px;
-color:#333333;
-line-height:32px;
-text-align:center;
-margin:60px 0 28px 0;
+.introduction-title {
+  font-family: PingFangSC-Medium;
+  font-size: 32px;
+  color: #333333;
+  line-height: 32px;
+  text-align: center;
+  margin: 60px 0 28px 0;
 }
-.introduction-content{
-  font-family:PingFangSC-Regular;
-  font-size:14px;
-  color:#333333;
-  text-align:center;
-  line-height:14px;
+
+.introduction-content {
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  text-align: center;
 }
-.introduction-content2{
-  font-family:PingFangSC-Regular;
-  font-size:14px;
-  color:#333333;
-  text-align:left;
-  line-height:14px;
+
+.introduction-content2 {
+  font-family: PingFangSC-Regular;
+  color: #333333;
+  text-align: left;
 }
-.introduction-content3{
-  font-family:PingFangSC-Medium;
-font-size:32px;
-color:#333333;
-line-height:32px;
-text-align:left;
+
+.introduction-content3 {
+  font-family: PingFangSC-Medium;
+  color: #333333;
+  text-align: left;
 }
-.introduction-mt-30{
+
+.introduction-mt-30 {
   margin-bottom: 30px;
 }
-.introduction-img{
+
+.introduction-img {
   margin: 60px 0 30px 0;
   /* text-align: center; */
 }
-.introduction-center{
+
+.introduction-center {
   text-align: center;
 }
-/*张晨*/ 
-.introduction-left{
-display: flex;
-/* justify-content: center; */
-align-items: center; 
+
+/*张晨*/
+.introduction-left {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
-.introduction-right{
+
+.introduction-right {
   text-align: left;
 }
-.ail-style{
-font-size: 18px
+
+.ail-style {
+  font-size: 18px
 }
-.footer-font{
-  font-family:PingFangSC-Regular;
-font-size:14px;
-color:#999999;
-text-align:left;
-line-height:14px;
+
+.footer-font {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #999999;
+  text-align: left;
+  line-height: 14px;
 }
-.footter-font-title{
-  font-family:PingFangSC-Medium;
-font-size:16px;
-color:#333333;
-text-align:left;
-line-height:16px;
+
+.footter-font-title {
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  color: #333333;
+  text-align: left;
+  line-height: 16px;
 }
-.footer-mt-14{
-  margin-top:14px;
+
+.footer-mt-14 {
+  margin-top: 14px;
 }
-.footer-mt-16{
-  margin-top:16px;
+
+.footer-mt-16 {
+  margin-top: 16px;
 }
-.footer-mt-36{
-  margin-top:36px;
+
+.footer-mt-36 {
+  margin-top: 36px;
 }
-.flex-content{
-  flex:1;
+
+.flex-content {
+  flex: 1;
   text-align: center;
-  font-family:PingFangSC-Regular;
-font-size:14px;
-line-height:80px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  line-height: 80px;
 }
-.content-active{
+
+.content-active {
   background: #439df7;
-  color:#ffffff;
-}
-.content-unactive{
-  color:#333333;
+  color: #ffffff;
 }
 
-.text-black{
-  color:#333333 !important;
+.content-unactive {
+  color: #333333;
 }
-.text-black:hover{
-  color:#333333!important;
-}
-.text-black:visited{
-  color:#333333!important;
-}
-.nav-font-style{
-  font-family:PingFangSC-Medium;
-font-size:36px;
-color:#ffffff;
-line-height:36px;
 
-width:100%;
+.text-black {
+  color: #333333 !important;
 }
-.nav-font-style2{
-  font-family:PingFangSC-Regular;
-font-size:16px;
-color:#ffffff;
-line-height:25px;
-margin-top:20px;
+
+.text-black:hover {
+  color: #333333 !important;
 }
-.img-bg-style{
+
+.text-black:visited {
+  color: #333333 !important;
+}
+
+.nav-font-style {
+  font-family: PingFangSC-Medium;
+  font-size: 36px;
+  color: #ffffff;
+  line-height: 36px;
+
+  width: 100%;
+}
+
+.nav-font-style2 {
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.img-bg-style {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.no-padding{
-  padding: 0!important;
-} 
+
+.img-second-right{
+   background-repeat: no-repeat;
+   background-size: cover;
+   float: right;
+}
+
+.img-second-left {
+  width: 560px;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
 .grayscale {
   -webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
--ms-filter: grayscale(100%);
--o-filter: grayscale(100%);
-filter: grayscale(100%);
-filter: gray; /* IE 6-9 */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  /* IE 6-9 */
 }
 
 /* yujian */
-.no-a{
-  text-decoration:none;
-  color:#333333;
-} 
-.no-a:hover{
-  text-decoration:none;
-  color:#439df7;
-} 
-.nav-link{
-  font-size:14px;
+.no-a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.no-a:hover {
+  text-decoration: none;
+  color: #439df7;
+}
+
+.nav-link {
+  font-size: 14px;
   width: auto;
 }
-.nav-item{
- width:auto;
+
+.nav-item {
+  width: auto;
 }
-.introduction-content2 span{
+
+.introduction-content2 span {
   line-height: 22px;
 }
-.introduction-mt-30{
+
+.introduction-mt-30 {
   margin-bottom: 15px;
 }
-.imgMar{
+
+.imgMar {
   margin-top: -35px;
 }
-.introductionCon{
+
+.introductionCon {
   width: 430px;
 }
-.introduction-title{
+
+.introduction-title {
   margin-bottom: 40px;
 }
-.BMap_Marker{
-  background-image:url('../img/map111.gif');
+
+.BMap_Marker {
+  background-image: url('../img/map111.gif');
 }

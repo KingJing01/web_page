@@ -1,5 +1,10 @@
 /* 添加样式适应各屏幕大小 */
 @media (min-width: 1200px) {
+.img-second-right {
+  width: 480px;
+  height: 360px;
+}
+
   .page-icon-xinya {
     margin-left: 10%
   }
@@ -29,7 +34,7 @@
   }
 
   .text-xinya-1 {
-    margin-left: 30%;
+    margin-left: 25%;
     text-align: left;
     font-size: 42px;
     font-weight: 400;
@@ -37,28 +42,48 @@
   }
 
   .lead-xinya-1 {
-    margin-left: 30%;
+    margin-left: 31%;
     text-align: left;
     padding-left: 10%;
     font-size: 18px;
     line-height: 40px;
   }
 
-  .carousel-caption-xinya{
+  .carousel-caption-xinya {
+    width: 80%;
     left: 10%;
     position: absolute;
     right: 0%;
-    bottom: 66%;
+    bottom: 65%;
     z-index: 10;
-    padding-top: 26px;
-    padding-bottom: 0px;
     color: #fff;
     margin: 0px;
+  }
+
+
+  .introduction-content {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .introduction-content2 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .introduction-content3 {
+    font-size: 26px;
+    line-height: 66px;
   }
 }
 
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+  .img-second-right {
+    width: 480px;
+    height: 360px;
+  }
   #main-slide .carousel-caption {
     top: 32%;
   }
@@ -147,10 +172,31 @@
     color: #fff;
     margin: 0px;
   }
+
+   .introduction-content {
+     font-size: 14px;
+     line-height: 14px;
+     
+   }
+
+   .introduction-content2 {
+     font-size: 14px;
+     line-height: 14px;
+     padding-right: 2%;
+   }
+
+   .introduction-content3 {
+     font-size: 26px;
+     line-height: 66px;
+   }
 }
 
 /* tablets */
 @media (max-width: 991px) {
+  .img-second-right {
+    width: 480px;
+    height: 360px;
+  }
   #main-slide .carousel-caption {
     top: 32%;
   }
