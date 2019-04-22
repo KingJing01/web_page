@@ -12,6 +12,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav-xinya">
@@ -66,18 +67,18 @@
         <div class="carousel-item">
           <video -webkit-playsinline="true" src="assets/img/pic2.mp4" autoplay="" loop="" muted="" playsinline=""
             type="video/mp4" style="height:100%;width: 100%;object-fit: fill"></video> -->
-         <div class="carousel-caption-xinya  d-none d-md-block ">
+          <div class="carousel-caption-xinya  d-none d-md-block ">
             <h2 class="text-xinya-1">从始至终全程可视化保驾护航</h2>
-            <p class="lead-xinya-1">专注于打造智慧物流平台</p> 
+            <p class="lead-xinya-1">专注于打造智慧物流平台</p>
           </div>
-        </div> 
+        </div>
         <div class="carousel-item" style="background-image: url(assets/img/barnner_third.jpg)">
           <div class="carousel-caption d-none d-md-block">
-            <h2 class="text-xinya">物流变得简单、安全、高效、透明</h2>
+            <h2 class="text-xinya">物流变得简单、安全、高效</h2>
             <h2 class="text-xinya">首选欣物盟</h2>
             <p class="lead-xinya">ALL IN LOGISTICS</p>
           </div>
-        </div> 
+        </div>
       </div>
       <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -98,7 +99,25 @@
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/jquery.bootstrap-dropdown-hover.min.js"></script>
   <script>
-    $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover({});
+    $(function () {
+      $('.navbar [data-toggle="dropdown"]').bootstrapDropdownHover({});
+      $(".carousel-control-prev-icon").hover(function () {
+        $(".carousel-control-next-icon").css("background-image", "url(assets/img/ic_down.svg)")
+        $(".carousel-control-prev-icon").css("background-image", "url(assets/img/ic_up.svg)")
+      }, function () {
+        $(".carousel-control-next-icon").css("background-image", "none")
+        $(".carousel-control-prev-icon").css("background-image", "none")
+      });
+
+      $(".carousel-control-next-icon").hover(function () {
+        $(".carousel-control-prev-icon").css("background-image", "url(assets/img/ic_up.svg)")
+        $(".carousel-control-next-icon").css("background-image", "url(assets/img/ic_down.svg)")
+      }, function () {
+        $(".carousel-control-prev-icon").css("background-image", "none")
+        $(".carousel-control-next-icon").css("background-image", "none")
+      });
+
+    })
   </script>
 </body>
 
