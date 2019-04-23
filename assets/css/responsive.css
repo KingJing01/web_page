@@ -1,10 +1,9 @@
-
 /* 添加样式适应各屏幕大小 */
-@media  (min-width: 1200px) {
-.img-second-right {
-  width: 100%;
-  height: 360px;
-}
+@media (min-width: 1200px) {
+  .img-second-right {
+    width: 100%;
+    height: 360px;
+  }
 
   .page-icon-xinya {
     margin-left: 10%
@@ -34,6 +33,12 @@
     margin-top: 30px;
   }
 
+  #ent-introduce {
+    transform: translateX(-30%) translateY(90%);
+    padding: 0px 8%;
+    width: 160%;
+  }
+
   /* .text-xinya-1 {
     margin-left: 25%;
     text-align: left;
@@ -49,7 +54,7 @@
     font-size: 18px;
     line-height: 40px;
   } */
-/* 
+  /* 
   .carousel-caption-xinya {
     position: absolute;
     z-index: 10;
@@ -69,18 +74,25 @@
   }
 
   .introduction-content3 {
-    font-size: 26px;
-    line-height: 66px;
+      font-size: 24px;
+      padding-top: 5px;
+      line-height: 66px;
   }
 }
 
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  #ent-introduce {
+      transform: translateX(-30%) translateY(85%);
+      padding-left: 5%;
+      width: 160%;
+  }
 
   .img-second-right {
     width: 100%;
     height: 360px;
   }
+
   #main-slide .carousel-caption {
     top: 32%;
   }
@@ -170,30 +182,53 @@
     margin: 0px;
   } */
 
-   .introduction-content {
-     font-size: 14px;
-     line-height: 14px;
-     
-   }
+  .introduction-content {
+    font-size: 14px;
+    line-height: 14px;
 
-   .introduction-content2 {
-     font-size: 14px;
-     line-height: 14px;
-     padding-right: 2%;
-   }
+  }
 
-   .introduction-content3 {
-     font-size: 26px;
-     line-height: 66px;
-   }
+  .introduction-content2 {
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 2%;
+  }
+
+  .introduction-content3 {
+    font-size: 26px;
+    line-height: 66px;
+  }
 }
 
 /* tablets */
 @media (max-width: 991px) {
+  #ent-introduce {
+    transform: translateX(-30%) translateY(50%);
+    padding-left: 5%;
+  }
+
+  .introduction-content {
+    font-size: 14px;
+    line-height: 14px;
+
+  }
+
+  .introduction-content2 {
+    font-size: 10px;
+    padding-right: 0%;
+  }
+
+  .introduction-content3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 45px;
+  }
+
   .img-second-right {
     width: 100%;
     height: 360px;
   }
+
   #main-slide .carousel-caption {
     top: 32%;
   }
@@ -322,6 +357,11 @@
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+  #ent-introduce {
+    transform: translateX(-30%) translateY(50%);
+    padding-left: 5%;
+  }
+
   #main-slide .carousel-caption {
     top: 32%;
   }

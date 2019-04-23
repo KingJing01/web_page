@@ -1,3 +1,7 @@
+#ent-introduce{
+    background: #FFFFFF;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.02);
+  }
 /* 首页图片轮播 */
 .carousel-item {
   height: 100vh;
@@ -160,6 +164,7 @@
 }
 
 .introduction-content {
+   line-height: 14px;
   font-family: PingFangSC-Regular;
   color: #333333;
   text-align: center;
@@ -169,6 +174,7 @@
   font-family: PingFangSC-Regular;
   color: #333333;
   text-align: left;
+  padding-bottom: 20px
 }
 
 .introduction-content3 {
