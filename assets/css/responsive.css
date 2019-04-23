@@ -1,7 +1,8 @@
+
 /* 添加样式适应各屏幕大小 */
-@media (min-width: 1200px) {
+@media  (min-width: 1200px) {
 .img-second-right {
-  width: 480px;
+  width: 100%;
   height: 360px;
 }
 
@@ -33,7 +34,7 @@
     margin-top: 30px;
   }
 
-  .text-xinya-1 {
+  /* .text-xinya-1 {
     margin-left: 25%;
     text-align: left;
     font-size: 42px;
@@ -47,18 +48,14 @@
     padding-left: 10%;
     font-size: 18px;
     line-height: 40px;
-  }
-
+  } */
+/* 
   .carousel-caption-xinya {
-    width: 80%;
-    left: 10%;
     position: absolute;
-    right: 0%;
-    bottom: 65%;
     z-index: 10;
     color: #fff;
     margin: 0px;
-  }
+  } */
 
 
   .introduction-content {
@@ -81,7 +78,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
   .img-second-right {
-    width: 480px;
+    width: 100%;
     height: 360px;
   }
   #main-slide .carousel-caption {
@@ -145,7 +142,7 @@
     bottom: 40%;
   }
 
-  .text-xinya-1 {
+  /* .text-xinya-1 {
     margin-left: 26%;
     text-align: left;
     font-size: 36px;
@@ -159,9 +156,9 @@
     padding-left: 10%;
     font-size: 16px;
     line-height: 35px;
-  }
+  } */
 
-  .carousel-caption-xinya {
+  /* .carousel-caption-xinya {
     left: 2%;
     position: absolute;
     right: 0%;
@@ -171,7 +168,7 @@
     padding-bottom: 0px;
     color: #fff;
     margin: 0px;
-  }
+  } */
 
    .introduction-content {
      font-size: 14px;
@@ -194,7 +191,7 @@
 /* tablets */
 @media (max-width: 991px) {
   .img-second-right {
-    width: 480px;
+    width: 100%;
     height: 360px;
   }
   #main-slide .carousel-caption {
@@ -293,7 +290,7 @@
     bottom: 40%;
   }
 
-  .text-xinya-1 {
+  /* .text-xinya-1 {
     margin-left: 26%;
     text-align: left;
     font-size: 36px;
@@ -307,9 +304,9 @@
     padding-left: 10%;
     font-size: 16px;
     line-height: 35px;
-  }
+  } */
 
-  .carousel-caption-xinya {
+  /* .carousel-caption-xinya {
     left: 5%;
     position: absolute;
     right: 0%;
@@ -319,7 +316,7 @@
     padding-bottom: 0px;
     color: #fff;
     margin: 0px;
-  }
+  } */
 
 }
 
